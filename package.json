@@ -1,0 +1,19 @@
+{
+  "name": "mail_temp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "build": "mjml src/template.mjml --output views/output.eta",
+    "start": "npm run build && node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eta": "^1.12.3",
+    "express": "^4.17.2",
+    "mjml": "^4.12.0"
+  }
+}
