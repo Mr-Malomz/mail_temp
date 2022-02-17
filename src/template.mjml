@@ -3,7 +3,6 @@
     <mj-font name="Open Sans" href="https://fonts.googleapis.com/css2?family=Open+Sans" />
     <mj-attributes>
       <mj-text font-family="Open Sans" font-size="16px" line-height="26px" color="#637381" />
-      <mj-image padding="0px" />
       <mj-button background-color="#5666F6" font-size="14px" color="#ffffff" 
           font-family="Open Sans" text-transform="capitalize" height="45px" width="200px" />
       <mj-class name="head-text" font-size="48px" text-transform="capitalize"padding-bottom="30px" />
@@ -15,7 +14,7 @@
     <!-- header section -->
     <mj-section>
       <mj-column>
-        <mj-image width="80px" src="https://res.cloudinary.com/dtgbzmpca/image/upload/v1642367682/fire.png"></mj-image>
+        <mj-image width="80px" src="https://res.cloudinary.com/dtgbzmpca/image/upload/v1642367682/fire.png" />
         <mj-divider border-color="#F45E43"></mj-divider>
       </mj-column>
     </mj-section> 
@@ -24,7 +23,7 @@
     <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
       <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px">
         <mj-column width="100%">
-          <!-- Intro sectiom -->
+          <!-- Intro section -->
           <mj-text mj-class="head-text">
             welcome onboard!
           </mj-text>
@@ -47,47 +46,57 @@
             </ul>
           </mj-text>
           <mj-text   padding-bottom="30px">
-            Lorem ipsum dolor <a class="text-link" href="https://google.com">sit amet consectetur</a> adipisicing elit. Earum eaque sunt nulla in, id eveniet quae unde ad ipsam ut, harum autem porro reiciendis minus libero illo. Vero, fugiat reprehenderit.
+            Lorem ipsum dolor <a class="text-link" href="#">sit amet consectetur</a> adipisicing elit. Earum eaque sunt nulla in, id eveniet quae unde ad ipsam ut, harum autem porro reiciendis minus libero illo. Vero, fugiat reprehenderit.
           </mj-text>
-          <mj-button href="https://google.com">
+          <mj-button href="<%= it.link %>">
             verify account
           </mj-button>
         </mj-column>
     </mj-section>
 
+    <!-- Image section -->
+    <mj-section padding-left="15px" padding-right="15px" padding-top="0">
+        <mj-column width="50%" padding="20px">
+          <mj-image border="" align="center" src="https://res.cloudinary.com/dtgbzmpca/image/upload/v1635037458/david-edkins-6cC7WKiwcGs-unsplash.jpg" alt="section image" />
+        </mj-column>
+        <mj-column width="50%" padding="20px">
+          <mj-image align="center" src="https://res.cloudinary.com/dtgbzmpca/image/upload/v1635037453/timothy-eberly-yuiJO6bvHi4-unsplash.jpg" alt="section image" />
+        </mj-column>
+    </mj-section>
+
     <!-- footer section -->
-      <mj-section>
-        <mj-column width="100%" padding="0">
-          <mj-social font-size="15px" icon-size="30px" mode="horizontal" padding="0" align="center">
-            <mj-social-element name="facebook" href="#" mj-class="social-bg">
-            </mj-social-element>
-            <mj-social-element name="google" href="#" mj-class="social-bg">
-            </mj-social-element>
-            <mj-social-element name="twitter" href="#" mj-class="social-bg">
-            </mj-social-element>
-            <mj-social-element name="linkedin" href="#" mj-class="social-bg">
-            </mj-social-element>
-          </mj-social>
-          <mj-text color="#445566" font-size="11px" font-weight="bold" align="center">
-            View this email in your browser
-          </mj-text>
-          <mj-text color="#445566" font-size="11px" align="center" line-height="16px">
-            You are receiving this email advertisement because you registered with Hackmamba Inc (Dubai) and agreed to receive emails from us regarding new features, events and special offers.
-          </mj-text>
-          <mj-text color="#445566" font-size="11px" align="center" line-height="16px">
-            &copy; Hackmamba Inc., All Rights Reserved.
+    <mj-section>
+      <mj-column width="100%" padding="0">
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal" padding="0" align="center">
+          <mj-social-element name="facebook" href="#" mj-class="social-bg">
+          </mj-social-element>
+          <mj-social-element name="google" href="#" mj-class="social-bg">
+          </mj-social-element>
+          <mj-social-element name="twitter" href="#" mj-class="social-bg">
+          </mj-social-element>
+          <mj-social-element name="linkedin" href="#" mj-class="social-bg">
+          </mj-social-element>
+        </mj-social>
+        <mj-text color="#445566" font-size="11px" font-weight="bold" align="center">
+          View this email in your browser
+        </mj-text>
+        <mj-text color="#445566" font-size="11px" align="center" line-height="16px">
+          You are receiving this email advertisement because you registered with Hackmamba Inc (Dubai) and agreed to receive emails from us regarding new features, events and special offers.
+        </mj-text>
+        <mj-text color="#445566" font-size="11px" align="center" line-height="16px">
+          &copy; Hackmamba Inc., All Rights Reserved.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="0">
+      <mj-group>
+        <mj-column width="100%" padding-right="0">
+          <mj-text color="#445566" font-size="11px" align="center" line-height="16px" font-weight="bold">
+            <a class="footer-link" href="#">Privacy</a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<a class="footer-link" href="#">Unsubscribe</a>
           </mj-text>
         </mj-column>
-      </mj-section>
-      <mj-section padding-top="0">
-        <mj-group>
-          <mj-column width="100%" padding-right="0">
-            <mj-text color="#445566" font-size="11px" align="center" line-height="16px" font-weight="bold">
-              <a class="footer-link" href="#">Privacy</a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<a class="footer-link" href="#">Unsubscribe</a>
-            </mj-text>
-          </mj-column>
-        </mj-group>
-
-      </mj-section>
+      </mj-group>
+    </mj-section>
+    
   </mj-body>
 </mjml>

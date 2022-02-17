@@ -71,6 +71,11 @@
         width: 100% !important;
         max-width: 100%;
       }
+
+      .mj-column-per-50 {
+        width: 50% !important;
+        max-width: 50%;
+      }
     }
 
   </style>
@@ -78,6 +83,11 @@
     .moz-text-html .mj-column-per-100 {
       width: 100% !important;
       max-width: 100%;
+    }
+
+    .moz-text-html .mj-column-per-50 {
+      width: 50% !important;
+      max-width: 50%;
     }
 
   </style>
@@ -111,7 +121,7 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
                     <tr>
-                      <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                           <tbody>
                             <tr>
@@ -158,7 +168,7 @@
                         <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                             <tbody>
-                              <!-- Intro sectiom -->
+                              <!-- Intro section -->
                               <tr>
                                 <td align="left" style="font-size:0px;padding:10px 25px;padding-bottom:30px;word-break:break-word;">
                                   <div style="font-family:Open Sans;font-size:48px;line-height:26px;text-align:left;text-transform:capitalize;color:#637381;">welcome onboard!</div>
@@ -202,7 +212,7 @@
                               </tr>
                               <tr>
                                 <td align="left" style="font-size:0px;padding:10px 25px;padding-bottom:30px;word-break:break-word;">
-                                  <div style="font-family:Open Sans;font-size:16px;line-height:26px;text-align:left;color:#637381;">Lorem ipsum dolor <a class="text-link" href="https://google.com">sit amet consectetur</a> adipisicing elit. Earum eaque sunt nulla in, id eveniet quae unde ad ipsam ut, harum autem porro reiciendis minus libero illo. Vero, fugiat reprehenderit.</div>
+                                  <div style="font-family:Open Sans;font-size:16px;line-height:26px;text-align:left;color:#637381;">Lorem ipsum dolor <a class="text-link" href="#">sit amet consectetur</a> adipisicing elit. Earum eaque sunt nulla in, id eveniet quae unde ad ipsam ut, harum autem porro reiciendis minus libero illo. Vero, fugiat reprehenderit.</div>
                                 </td>
                               </tr>
                               <tr>
@@ -211,7 +221,77 @@
                                     <tbody>
                                       <tr>
                                         <td align="center" bgcolor="#5666F6" role="presentation" style="border:none;border-radius:3px;cursor:auto;height:45px;mso-padding-alt:10px 25px;background:#5666F6;" valign="middle">
-                                          <a href="https://google.com" style="display:inline-block;width:150px;background:#5666F6;color:#ffffff;font-family:Open Sans;font-size:14px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:capitalize;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;" target="_blank"> verify account </a>
+                                          <a href="<%= it.link %>" style="display:inline-block;width:150px;background:#5666F6;color:#ffffff;font-family:Open Sans;font-size:14px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:capitalize;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;" target="_blank"> verify account </a>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]></td></tr></table><![endif]-->
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table></td></tr><![endif]-->
+              <!-- Image section -->
+              <!--[if mso | IE]><tr><td class="" width="600px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+              <div style="margin:0px auto;max-width:600px;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+                  <tbody>
+                    <tr>
+                      <td style="direction:ltr;font-size:0px;padding:20px 0;padding-left:15px;padding-right:15px;padding-top:0;text-align:center;">
+                        <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:285px;" ><![endif]-->
+                        <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tbody>
+                              <tr>
+                                <td style="vertical-align:top;padding:20px;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                            <tbody>
+                                              <tr>
+                                                <td style="width:195px;">
+                                                  <img alt="section image" height="auto" src="https://res.cloudinary.com/dtgbzmpca/image/upload/v1635037458/david-edkins-6cC7WKiwcGs-unsplash.jpg" style="border:;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="195" />
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:285px;" ><![endif]-->
+                        <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tbody>
+                              <tr>
+                                <td style="vertical-align:top;padding:20px;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                            <tbody>
+                                              <tr>
+                                                <td style="width:195px;">
+                                                  <img alt="section image" height="auto" src="https://res.cloudinary.com/dtgbzmpca/image/upload/v1635037453/timothy-eberly-yuiJO6bvHi4-unsplash.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="195" />
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
                                         </td>
                                       </tr>
                                     </tbody>

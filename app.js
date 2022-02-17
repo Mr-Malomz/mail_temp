@@ -8,7 +8,7 @@ app.set('views', './views');
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.render('output', { name: 'Jane Doe' });
+  res.render('output', { name: 'Jane Doe', link: 'https://hackmamba.io/' });
 });
 
 app.listen(port, () => {
